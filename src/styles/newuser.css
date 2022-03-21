@@ -1,0 +1,58 @@
+.newuser {
+    flex: 4;
+    margin:20px ;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+
+.newuser_form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.newuser_form_item {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.newuser_form_item>label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: grey;
+}
+.newuser_form_item>input{
+    height: 20px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.newuser_gender>input{
+    margin-top: 15px;
+}
+.newuser_gender>label{
+    margin: 10px;
+    font-size: 18px;
+    color: #555;
+}
+.newuser_select{
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.newuser_btn{
+    width: 200px;
+    height: 40px;
+    font-size: 19px;
+    border: none;
+    color: white;
+    background-color:darkblue;
+    border-radius: 10px;
+    padding: 7px 10px;
+    margin-top: 30px;
+    cursor:pointer;
+}

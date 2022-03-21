@@ -1,0 +1,31 @@
+.productlist{
+    flex: 4
+}
+.productlist{
+    flex: 4;
+}
+
+.productlist_item{
+    display: flex;
+    align-items: center;
+}
+.productlist_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.productlist_btn{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.productlist_btn_dlt{
+    width:5 0px !important;
+    color: red;
+    cursor: pointer;
+}

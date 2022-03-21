@@ -1,0 +1,154 @@
+.user_page {
+    flex: 4;
+    padding: 20px;
+}
+
+.user_title_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user_addbtn {
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: teal;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.user_container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.user_show {
+    flex: 1;
+    padding: 25px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.user_update {
+    flex: 1;
+    padding: 25px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin-left: 20px;
+}
+
+.user_show_top {
+    display: flex;
+    align-items: center;
+}
+
+.user_show_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user_show_jobtitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.User_show_username {
+    font-weight: 600;
+}
+
+.User_show_username_title {
+    font-weight: 300;
+    margin-top: 3px;
+}
+
+.user_show_bottom {
+    margin-top: 20px;
+}
+
+.user_show_title {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(153, 153, 153);
+}
+
+.user_show_info {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: rgb(0, 0, 0);
+}
+
+.user_show_icon {
+    font-size: 20px !important;
+}
+
+.user_show_input_title {
+    margin-left: 10px;
+}
+
+.user_update_title {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.user_update_form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.user_update_item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.user_update_item>label {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.user_update_input{
+    border: none;
+     width: 250px;
+     height: 30px;
+     border-bottom: 1px solid grey;
+}
+
+
+/* user update_Right */
+.user_update_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.user_update_right_upload{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.user_update_right_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.user_update_right_icon{
+    cursor: pointer;
+}
+.user_update_right_btn{
+    border-radius: 5px ;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+
+}

@@ -1,0 +1,51 @@
+.widgesm {
+    flex: 1;
+    box-shadow: rgba(0, 0, 0, 0.19) -10px 1px 22px;
+    padding: 20px;
+    margin-right: 20px;
+}
+.widgesmTitle{
+    font-size: 32px;
+    font-weight: 600;
+}
+.wg_sm_img{
+    font: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.wg_sm_list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.wg_sm_Lt_It{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.wg_sm_user{
+    display: flex;
+    flex-direction: column
+}
+.wg_username{
+    font-weight: 600;
+}
+.wg_username_title{
+    font-weight: 300;
+}
+.wg_sm_btn{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    color: rgb(71, 69, 69);
+    background-color: #e4e4e7;
+    cursor: pointer;
+}
+.wg_sm_icons{
+    font-size: 20px !important;
+    margin-right: 5px;
+}
